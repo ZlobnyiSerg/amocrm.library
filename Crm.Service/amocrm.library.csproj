@@ -1,7 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>0.2.6.1</Version>
     <PackageId>amocrm.library.net</PackageId>
@@ -15,6 +14,7 @@ Provides access to Leads \ Contacts \ Tasks and Notes</Description>
     <PackageTags>amocrm</PackageTags>
     <AssemblyVersion>0.2.6.1</AssemblyVersion>
     <FileVersion>0.2.6.1</FileVersion>
+    <TargetFrameworks>netcoreapp2.2;netcoreapp3.1</TargetFrameworks>
   </PropertyGroup>
 
   <ItemGroup>
